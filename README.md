@@ -1,4 +1,4 @@
-# Exploit Title: WBCE CMS Version 1.6.1 Remote Command Execution
+## Exploit Title: WBCE CMS Version 1.6.1 Remote Command Execution
 ## Date: 30/11/2023
 ## Exploit Author: tmrswrr
 ## Vendor Homepage: [https://wbce-cms.org/](https://wbce-cms.org/)
