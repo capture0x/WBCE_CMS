@@ -6,6 +6,11 @@
 ## Version: 1.6.1
 ## Tested on: [WBCE_CMS - Softaculous](https://www.softaculous.com/apps/cms/WBCE_CMS)
 
+<img src="https://raw.githubusercontent.com/capture0x/WBCE_CMS/main/1.png" alt="WBCE_CMS Image" width="1000">
+
+<img src="https://raw.githubusercontent.com/capture0x/WBCE_CMS/main/2.png" alt="WBCE_CMS Image" width="1000">
+
+
 ### POC:
 
 1. Login with admin credentials and click on Add-ons.
