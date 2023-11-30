@@ -1,10 +1,10 @@
 ## Exploit Title: WBCE CMS Version 1.6.1 Remote Command Execution
-## Date: 30/11/2023
-## Exploit Author: tmrswrr
-## Vendor Homepage: [https://wbce-cms.org/](https://wbce-cms.org/)
-## Software Link: [WBCE CMS 1.6.1](https://github.com/WBCE/WBCE_CMS/archive/refs/tags/1.6.1.zip)
-## Version: 1.6.1
-## Tested on: [WBCE_CMS - Softaculous](https://www.softaculous.com/apps/cms/WBCE_CMS)
+
+- **Date:** 30/11/2023
+- **Exploit Author:** tmrswrr
+- **Vendor Homepage:** [WBCE CMS](https://wbce-cms.org/)
+- **Software Link:** [WBCE CMS 1.6.1](https://github.com/WBCE/WBCE_CMS/archive/refs/tags/1.6.1.zip)
+- **Version:** 1.6.1
 
 <img src="https://raw.githubusercontent.com/capture0x/WBCE_CMS/main/1.png" alt="WBCE_CMS Image" width="1000">
 
