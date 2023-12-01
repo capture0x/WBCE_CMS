@@ -7,6 +7,7 @@
 - **Version:** 1.6.1
 
 ![WBCE_CMS Image 1](https://raw.githubusercontent.com/capture0x/WBCE_CMS/main/1.png)
+
 ![WBCE_CMS Image 2](https://raw.githubusercontent.com/capture0x/WBCE_CMS/main/2.png)
 
 ### POC:
